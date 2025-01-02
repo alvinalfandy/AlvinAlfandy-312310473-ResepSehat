@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna bawaan -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna tambahan -->
+    <!-- Warna hijau utama (dipilih) -->
+    <color name="green_669900">#669900</color>
+    <!-- Warna hijau terang untuk elemen lain -->
+    <color name="green_light">#A9D18E</color>
+    <!-- Warna abu-abu terang untuk background atau stroke -->
+    <color name="light_gray">#DDDDDD</color>
+    <!-- Warna teks default -->
+    <color name="text_default">#333333</color>
+    <!-- Warna abu-abu untuk teks yang tidak aktif -->
+    <color name="text_inactive">#777777</color>
+    <!-- Warna tombol tidak aktif -->
+    <color name="button_inactive">#FFFFFF</color>
+    <color name="colorPrimary">#669900</color>
+    <color name="chip_background_color">#FFFFFF</color>
+    <color name="bottom_nav_item_color">#34BE2D</color>
+</resources>

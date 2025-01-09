@@ -1,3 +1,4 @@
+
 # UAS Pemogramanan Mobile
 
 # 🍲 Resep Sehat
@@ -70,9 +71,6 @@ Aplikasi Resep Sehat adalah solusi terbaik bagi Anda yang ingin menjalani gaya h
 ---
 
 # Aplikasi Resep Sehat
-
-## Video Aplikasi
-https://github.com/user-attachments/assets/ad4ada41-d6e0-4548-893d-0310915ca188
 
 ## Status Proyek: Phase 1 Initial Development
 
@@ -157,15 +155,14 @@ Launcher Icon ini bertujuan untuk segera mengkomunikasikan tujuan aplikasi Resep
 
 ### 2. Halaman Favorit
 
-- Tambah Favorite
-  ![alt text](Gambar/image-13.png)
+| Tambah Favorite              | Halaman Tambah Favorite          |
+|------------------------------|-----------------------------------|
+| ![alt text](Gambar/image-13.png) | ![alt text](Gambar/image-14.png) |
 
-- Halaman Tambah Favorite
-  ![alt text](Gambar/image-14.png)
+- **Daftar resep yang telah ditandai sebagai favorit oleh pengguna**
+- **Opsi untuk menghapus resep dari daftar favorit**
+- **Akses cepat ke resep-resep yang sering digunakan**
 
-- Daftar resep yang telah ditandai sebagai favorit oleh pengguna
-- Opsi untuk menghapus resep dari daftar favorit
-- Akses cepat ke resep-resep yang sering digunakan
 
 ### 3. Fitur Pencarian
 
@@ -218,6 +215,13 @@ Pembaruan ini bertujuan untuk meningkatkan pengalaman pengguna dengan menyajikan
         <img src="https://img.shields.io/badge/Download-Resep%20Sehat-brightgreen?style=for-the-badge&logo=android" alt="Download Resep Sehat" width="250">
     </a>
 </div>
+
+## Preview Video Aplikasi
+
+
+https://github.com/user-attachments/assets/50d2b735-7f64-4939-9032-39c7d7d2bce2
+
+
 
 ## Penutup
 

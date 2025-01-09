@@ -155,8 +155,7 @@ Launcher Icon ini bertujuan untuk segera mengkomunikasikan tujuan aplikasi Resep
 ### 2. Halaman Favorit
 
 - Tambah Favorite
-
-![alt text](Gambar/image-13.png)
+  ![alt text](Gambar/image-13.png)
 
 - Halaman Tambah Favorite
   ![alt text](Gambar/image-14.png)
@@ -178,24 +177,6 @@ Launcher Icon ini bertujuan untuk segera mengkomunikasikan tujuan aplikasi Resep
 - Optimalisasi performa aplikasi untuk loading yang lebih cepat
 - Perbaikan bug dan peningkatan stabilitas
 - Peningkatan responsivitas UI untuk berbagai ukuran layar
-
-## Teknologi yang Digunakan:
-
-- Frontend: Android (Java)
-- Desain: Material Design
-
-## Cara Menggunakan Aplikasi
-
-1. **Pilih Resep**: Telusuri daftar resep di beranda atau gunakan fitur pencarian untuk menemukan resep yang diinginkan.
-2. **Lihat Detail Resep**: Klik pada resep untuk melihat informasi lengkap, termasuk bahan-bahan dan langkah-langkah pembuatan.
-
-3. **Tambahkan ke Favorit**: Jika Anda menyukai resep tersebut, gunakan opsi "Tambahkan ke Favorit" untuk menyimpannya di halaman favorit Anda.
-
-4. **Akses Halaman Favorit**: Kunjungi halaman favorit untuk melihat semua resep yang telah Anda simpan dan akses dengan cepat.
-
-5. **Coba Resep**: Ikuti langkah-langkah yang tertera pada halaman detail resep untuk menyiapkan makanan atau minuman sehat yang Anda pilih.
-
-Aplikasi Resep Sehat dirancang untuk memudahkan Anda dalam menemukan dan mencoba berbagai resep sehat dengan cara yang menyenangkan dan terorganisir!
 
 ## Status Proyek: Phase 3 - Modernisasi UI dan Peningkatan Fungsionalitas
 
@@ -229,7 +210,11 @@ Pada tahap ketiga ini, fokus utama adalah pada pembaruan antarmuka pengguna untu
 
 Pembaruan ini bertujuan untuk meningkatkan pengalaman pengguna dengan menyajikan informasi yang lebih lengkap dan mudah diakses, serta memberikan tampilan yang lebih segar dan modern pada aplikasi Resep Sehat.
 
-<div align="center"> <a href="#"> <img src="https://img.shields.io/badge/Download-Resep%20Sehat-brightgreen?style=for-the-badge&logo=android" alt="Download Resep Sehat" width="250"> </a> </div>
+<div align="center">
+    <a href="https://raw.githubusercontent.com/alvinalfandy/AlvinAlfandy-312310473-ResepSehat/master/Gambar/Resepsehat.apk" download>
+        <img src="https://img.shields.io/badge/Download-Resep%20Sehat-brightgreen?style=for-the-badge&logo=android" alt="Download Resep Sehat" width="250">
+    </a>
+</div>
 
 ## Penutup
 
@@ -245,6 +230,24 @@ Kami berkomitmen untuk terus meningkatkan Aplikasi Resep Sehat dengan:
 Terima kasih telah menggunakan Aplikasi Resep Sehat. Kami berharap aplikasi ini dapat membantu Anda dalam perjalanan menuju gaya hidup yang lebih sehat dan seimbang.
 
 Jika Anda memiliki saran atau masukan, jangan ragu untuk menghubungi kami. Selamat menikmati perjalanan kuliner sehat Anda bersama Aplikasi Resep Sehat!
+
+## Teknologi yang Digunakan:
+
+- Frontend: Android (Java)
+- Desain: Material Design
+
+## Cara Menggunakan Aplikasi
+
+1. **Pilih Resep**: Telusuri daftar resep di beranda atau gunakan fitur pencarian untuk menemukan resep yang diinginkan.
+2. **Lihat Detail Resep**: Klik pada resep untuk melihat informasi lengkap, termasuk bahan-bahan dan langkah-langkah pembuatan.
+
+3. **Tambahkan ke Favorit**: Jika Anda menyukai resep tersebut, gunakan opsi "Tambahkan ke Favorit" untuk menyimpannya di halaman favorit Anda.
+
+4. **Akses Halaman Favorit**: Kunjungi halaman favorit untuk melihat semua resep yang telah Anda simpan dan akses dengan cepat.
+
+5. **Coba Resep**: Ikuti langkah-langkah yang tertera pada halaman detail resep untuk menyiapkan makanan atau minuman sehat yang Anda pilih.
+
+Aplikasi Resep Sehat dirancang untuk memudahkan Anda dalam menemukan dan mencoba berbagai resep sehat dengan cara yang menyenangkan dan terorganisir!
 
 <div align="center">
   <p>© 2025 Alvin Alfandy - Aplikasi Resep Sehat</p>

@@ -196,3 +196,56 @@ Launcher Icon ini bertujuan untuk segera mengkomunikasikan tujuan aplikasi Resep
 5. **Coba Resep**: Ikuti langkah-langkah yang tertera pada halaman detail resep untuk menyiapkan makanan atau minuman sehat yang Anda pilih.
 
 Aplikasi Resep Sehat dirancang untuk memudahkan Anda dalam menemukan dan mencoba berbagai resep sehat dengan cara yang menyenangkan dan terorganisir!
+
+## Status Proyek: Phase 3 - Modernisasi UI dan Peningkatan Fungsionalitas
+
+Pada tahap ketiga ini, fokus utama adalah pada pembaruan antarmuka pengguna untuk memberikan tampilan yang lebih modern dan informatif, serta meningkatkan fungsionalitas beberapa fitur utama.
+
+### 1. Pembaruan Halaman Utama
+
+![alt text](Gambar/baru1.png)
+
+- Desain yang lebih modern dengan penambahan banner
+- Peningkatan tampilan card konten resep:
+  - Penambahan icon waktu untuk menunjukkan durasi persiapan
+  - Penambahan informasi kalori untuk setiap resep
+
+### 2. Penyempurnaan Halaman Detail Resep
+
+![alt text](Gambar/baru3.png)
+
+- Pembaruan border untuk tampilan yang lebih modern dan responsif
+- Peningkatan desain tombol "Tambah Resep":
+  - Penambahan icon hati (love) untuk visualisasi yang lebih menarik
+
+### 3. Modernisasi Halaman Favorit
+
+![alt text](Gambar/baru2.png)
+
+- Desain ulang untuk tampilan yang lebih modern
+- Penambahan fitur baru:
+  - Menampilkan total resep favorit yang tersimpan
+  - Menghitung dan menampilkan total kalori dari semua resep favorit
+
+Pembaruan ini bertujuan untuk meningkatkan pengalaman pengguna dengan menyajikan informasi yang lebih lengkap dan mudah diakses, serta memberikan tampilan yang lebih segar dan modern pada aplikasi Resep Sehat.
+
+<div align="center"> <a href="#"> <img src="https://img.shields.io/badge/Download-Resep%20Sehat-brightgreen?style=for-the-badge&logo=android" alt="Download Resep Sehat" width="250"> </a> </div>
+
+## Penutup
+
+Aplikasi Resep Sehat merupakan solusi inovatif untuk membantu pengguna menjalani gaya hidup sehat melalui pilihan makanan dan minuman yang bergizi. Dengan fitur-fitur yang terus dikembangkan melalui tiga fase, aplikasi ini menawarkan pengalaman pengguna yang semakin baik dan fungsionalitas yang semakin lengkap.
+
+Kami berkomitmen untuk terus meningkatkan Aplikasi Resep Sehat dengan:
+
+- Menambahkan lebih banyak resep sehat dan bervariasi
+- Mengoptimalkan performa aplikasi
+- Meningkatkan desain UI/UX berdasarkan umpan balik pengguna
+- Mengembangkan fitur-fitur baru yang bermanfaat
+
+Terima kasih telah menggunakan Aplikasi Resep Sehat. Kami berharap aplikasi ini dapat membantu Anda dalam perjalanan menuju gaya hidup yang lebih sehat dan seimbang.
+
+Jika Anda memiliki saran atau masukan, jangan ragu untuk menghubungi kami. Selamat menikmati perjalanan kuliner sehat Anda bersama Aplikasi Resep Sehat!
+
+<div align="center">
+  <p>© 2025 Alvin Alfandy - Aplikasi Resep Sehat</p>
+</div>

@@ -1,5 +1,4 @@
 package com.example.resepsehat;
-import com.example.resepsehat.R;
 
 import android.content.Intent;
 import androidx.appcompat.app.AppCompatDelegate;
@@ -7,7 +6,6 @@ import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +16,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.resepsehat.adapter.RecipeAdapter;
 import com.example.resepsehat.model.Recipe;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.chip.Chip;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recipeRecyclerView;
     private SearchView searchView;
-    private Button btnSemua, btnMakanan, btnMinuman;
+    private Chip btnSemua, btnMakanan, btnMinuman;
 
     private List<Recipe> recipeList;
     private List<Recipe> filteredRecipeList;
@@ -35,12 +34,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // Mengatur default mode ke MODE_NIGHT_NO
         AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
-
         setContentView(R.layout.activity_main);
-
         Log.d("MainActivity", "onCreate: Aplikasi dimulai");
 
         initializeViews();
@@ -48,10 +43,9 @@ public class MainActivity extends AppCompatActivity {
         loadRecipeData();
         setupNavigationAndListeners();
 
-        // Set default style untuk button Semua
-        setButtonStyles(btnSemua);
+        // Set default style untuk Chip Semua
+        setActiveChip(btnSemua);
     }
-
 
     private void initializeViews() {
         recipeRecyclerView = findViewById(R.id.recyclerViewResep);
@@ -204,7 +198,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupNavigationAndListeners() {
-        // Setup Bottom Navigation
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.navigation_home);
         bottomNavigationView.setOnNavigationItemSelectedListener(item -> {
@@ -218,7 +211,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
         });
 
-        // Rest of your existing code for SearchView and Category Buttons setup
         setupSearchView();
         setupCategoryButtons();
     }
@@ -250,55 +242,49 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupCategoryButtons() {
         btnSemua.setOnClickListener(view -> {
-            setButtonStyles(btnSemua);
+            setActiveChip(btnSemua);
             filteredRecipeList.clear();
             filteredRecipeList.addAll(recipeList);
             recipeAdapter.notifyDataSetChanged();
         });
 
         btnMakanan.setOnClickListener(view -> {
-            setButtonStyles(btnMakanan);
+            setActiveChip(btnMakanan);
             List<Recipe> makananList = new ArrayList<>();
-            // Existing food recipes
-            makananList.add(recipeList.get(0)); // Salad Quinoa
-            makananList.add(recipeList.get(1)); // Sup Krim Brokoli
-            // New food recipes
-            makananList.add(recipeList.get(4)); // Bowl Buddha
-            makananList.add(recipeList.get(5)); // Salmon Panggang
-            makananList.add(recipeList.get(6)); // Oatmeal Bowl
-            makananList.add(recipeList.get(7)); // Wrap Tuna
+            makananList.add(recipeList.get(0));
+            makananList.add(recipeList.get(1));
+            makananList.add(recipeList.get(4));
+            makananList.add(recipeList.get(5));
+            makananList.add(recipeList.get(6));
+            makananList.add(recipeList.get(7));
             filteredRecipeList.clear();
             filteredRecipeList.addAll(makananList);
             recipeAdapter.notifyDataSetChanged();
         });
 
         btnMinuman.setOnClickListener(view -> {
-            setButtonStyles(btnMinuman);
+            setActiveChip(btnMinuman);
             List<Recipe> minumanList = new ArrayList<>();
-            // Existing drink recipes
-            minumanList.add(recipeList.get(2)); // Smoothie Berry
-            minumanList.add(recipeList.get(3)); // Infused Water
-            // New drink recipes
-            minumanList.add(recipeList.get(8)); // Green Detox
-            minumanList.add(recipeList.get(9)); // Matcha
+            minumanList.add(recipeList.get(2));
+            minumanList.add(recipeList.get(3));
+            minumanList.add(recipeList.get(8));
+            minumanList.add(recipeList.get(9));
             filteredRecipeList.clear();
             filteredRecipeList.addAll(minumanList);
             recipeAdapter.notifyDataSetChanged();
         });
     }
 
-    private void setButtonStyles(Button selectedButton) {
-        // Reset semua button ke style default
-        btnSemua.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+    private void setActiveChip(Chip selectedChip) {
+        btnSemua.setChipBackgroundColor(ColorStateList.valueOf(Color.WHITE));
         btnSemua.setTextColor(Color.parseColor("#669900"));
-        btnMakanan.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+        btnMakanan.setChipBackgroundColor(ColorStateList.valueOf(Color.WHITE));
         btnMakanan.setTextColor(Color.parseColor("#669900"));
-        btnMinuman.setBackgroundTintList(ColorStateList.valueOf(Color.WHITE));
+        btnMinuman.setChipBackgroundColor(ColorStateList.valueOf(Color.WHITE));
         btnMinuman.setTextColor(Color.parseColor("#669900"));
 
-        // Set style untuk button yang dipilih
-        selectedButton.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#669900")));
-        selectedButton.setTextColor(Color.WHITE);
+        selectedChip.setChipBackgroundColor(ColorStateList.valueOf(Color.parseColor("#669900")));
+        selectedChip.setTextColor(Color.WHITE);
     }
 
     private void filterRecipes(String query) {

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+    <!-- Background -->
+    <rect width="800" height="400" fill="#f5f9f0"/>
+
+    <!-- Decorative circles -->
+    <circle cx="700" cy="50" r="120" fill="#669900" opacity="0.1"/>
+    <circle cx="100" cy="350" r="100" fill="#669900" opacity="0.1"/>
+
+    <!-- Food plate -->
+    <circle cx="600" cy="200" r="150" fill="#ffffff" stroke="#669900" stroke-width="4"/>
+    <circle cx="600" cy="200" r="140" fill="#f0f7e6"/>
+
+    <!-- Salad elements -->
+    <path d="M500 180 Q600 120 700 180" fill="none" stroke="#669900" stroke-width="8"/>
+    <path d="M520 200 Q600 150 680 200" fill="none" stroke="#96cc39" stroke-width="8"/>
+    <path d="M530 220 Q600 180 670 220" fill="none" stroke="#669900" stroke-width="8"/>
+
+    <!-- Cherry tomatoes -->
+    <circle cx="550" cy="190" r="10" fill="#ff6b6b"/>
+    <circle cx="650" cy="190" r="10" fill="#ff6b6b"/>
+    <circle cx="600" cy="170" r="10" fill="#ff6b6b"/>
+
+    <!-- Text Section -->
+    <text x="60" y="150" font-family="Arial" font-size="48" font-weight="bold" fill="#333333">Resep Sehat</text>
+    <text x="60" y="200" font-family="Arial" font-size="28" fill="#669900">untuk Hidup Lebih Baik</text>
+
+    <!-- Subtitle -->
+    <text x="60" y="250" font-family="Arial" font-size="20" fill="#666666">Temukan inspirasi masakan sehat</text>
+    <text x="60" y="280" font-family="Arial" font-size="20" fill="#666666">untuk gaya hidup sehatmu</text>
+
+    <!-- Decorative leaves -->
+    <path d="M60 310 Q90 290 120 310" fill="none" stroke="#669900" stroke-width="3"/>
+    <path d="M80 320 Q110 300 140 320" fill="none" stroke="#96cc39" stroke-width="3"/>
+    <path d="M100 330 Q130 310 160 330" fill="none" stroke="#669900" stroke-width="3"/>
+</svg>

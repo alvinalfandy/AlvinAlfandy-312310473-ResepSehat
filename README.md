@@ -1,4 +1,4 @@
-# Uts Pemogramanan Mobile
+# UAS Pemogramanan Mobile
 
 # 🍲 Resep Sehat
 
@@ -70,6 +70,9 @@ Aplikasi Resep Sehat adalah solusi terbaik bagi Anda yang ingin menjalani gaya h
 ---
 
 # Aplikasi Resep Sehat
+
+## Video Aplikasi
+https://github.com/user-attachments/assets/ad4ada41-d6e0-4548-893d-0310915ca188
 
 ## Status Proyek: Phase 1 Initial Development
 
